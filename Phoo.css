@@ -1,0 +1,126 @@
+/* General styles */
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: 100px black;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.main {
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    position: fixed;
+  }
+
+.screen {
+	height: 100vh;
+	overflow: auto;
+}
+/* Optional styling for each screen */
+.screen:nth-child(odd) {
+	background-image: url('redroom.jpeg');
+    
+}
+.screen:nth-child(even) {
+	background-color: #eee;
+}
+
+ .h1 {
+text-align: center;
+font-size: 75px;
+color: cornsilk;
+margin-top: 20px;
+}
+
+  ul {
+    list-style: none;
+    padding-top: 10px;
+  }
+  
+  /* Header styles */
+  header {
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  nav ul {
+    display: flex;
+
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+  }
+.bloging{
+    margin-top: 60px;
+    margin-left: 70px;
+    background-color: red;
+    color: black;
+    width: 1630px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.abphotography{
+    margin-top: 40px;
+    margin-left: 90px;
+    background-color: red;
+    color: black;
+    width: 1630px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .about{
+    margin-top: 100px;
+    margin-left: 90px;
+    background-color: black;
+    color: #fff;
+    width: 1630px;
+ }
+  .mys{
+    position: relative;
+  }
+
+  .footer{
+        font-size: 20px;
+        margin-left: 850px;
+        background-color: black;
+        color: red;
+        width: 175px;
+        margin-top: 600px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+
+
+  }
